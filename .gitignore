@@ -1,0 +1,44 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# IDEs and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.log
+~$*
+
+# Protected medical-data locations
+**/data/raw/**
+**/data/private/**
+**/data/confidential/**
+**/data/patient/**
+**/data/patients/**
+**/data/clinical/**
